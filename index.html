@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0a6fa2928b.js" crossorigin="anonymous"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <div id="wrapper">
+        <span id="top"></span>        
+
+        <header id="header">
+                <img src="https://uilogos.co/img/logomark/circle.png" alt="" id="header-img" > 
+                <nav id="nav-bar">
+                    <ul id="nav-list" class="nav-list">
+                        <li><a href="#top" class="nav-link">Home</a></li>
+                        <li><a href="#features" class="nav-link">Features</a></li>
+                        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+
+                    </ul>    
+                </nav>
+                <div class="menu-button"  onclick="toggleMenu()">
+                    <span class="fas fa-bars menu-icon" ></span>
+                </div>
+        </header>
+        <div id="container">
+            <div class="header-container">
+                <div class="header-title-section">
+                    <div class="header-title">Landing Page Template</div>
+                    <div class="header-subtitle">Multi-purpose Landing Page Template</div>
+                    <p class="header-title-text">Lorem ipsum, dolor sit </p>
+                </div>
+                <div class="header-img-section">
+                    <img src="https://placeimg.com/400/400/tech" alt="">
+                </div>
+            </div>
+            <!-- FEATURES SECTION -->
+            <div id="features">
+                <div class="features-title title">Features</div>
+                <div class="features-section">
+                    <div class="features-video-container">
+                        <iframe id="video" class="features-video" src="https://www.youtube.com/embed/NpEaa2P7qZI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                    </div>
+                    <div class="features-list-section">
+                        <p class="features-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet.</p>
+                        <ul class="features-list">
+                            <li class="features-list-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, natus.</li>
+                            <li class="features-list-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, impedit.</li>
+                            <li class="features-list-item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        </ul>
+                    </div>
+                </div> 
+                
+               
+            </div>
+            <!-- TESTIMONIALS SECTION -->
+            <div id="testimonials">
+                <div class="testimonials-title title">Testimonials</div>
+                <div class="testimonials-section">
+                    <div class="testimonials-container">
+                        <img class="profile-pic" src="https://placeimg.com/100/100/people" alt="">
+                        <p class="name">Nick Johnson</p>
+                        <div class="testimony">
+                            <p><i><q>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore possimus ratione cumque voluptate exercitationem!
+                            </q></i></p>
+                        </div>
+                    </div>
+                    <div class="testimonials-container">
+                        <img class="profile-pic" src="https://placeimg.com/100/100/people" alt="">
+                        <p class="name">Brent David</p>
+                        <div class="testimony">
+                            <p><i><q>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore possimus ratione cumque voluptate exercitationem!
+                            </q></i></p>
+                        </div>
+                    </div>
+                    <div class="testimonials-container">
+                        <img class="profile-pic" src="https://placeimg.com/100/100/people" alt="">
+                        <p class="name">Miles Aster</p>
+                        <div class="testimony">
+                            <p><i><q>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore possimus ratione cumque voluptate exercitationem!
+                            </q></i></p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <!-- CONTACT SECTION -->
+            <div id="contact">
+                <div class="contact-title title">Contact</div>
+                <div class="contact-section">
+                    <h2 class="contact-subtitle">Get in touch</h2>
+                    <form action="https://www.freecodecamp.com/email-submit" id="form" >
+                    <input type="email" name="email" id="email" class="input-email form-control" placeholder="Email" required>
+                    <input type="submit" value="Send an Email" id="submit" class="submit form-control">
+                </form>
+                </div>
+                
+            </div>
+        </div>
+            <!--  FOOTER SECTION -->
+            <div id="footer">
+                <div class="footer-container">
+                    <div class="footer-subsection">
+                        <!-- <img src="https://uilogos.co/img/logomark/circle.png" alt="">  -->
+                        <h2 class="footer-subsection-title">About Us</h2>
+                        <div class="footer-aboutus-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae est assumenda enim sapiente.</p>
+                        </div>
+                    </div>
+                    <div class="footer-subsection">
+                        <h2 class="footer-subsection-title">Contact Us</h2>
+                        <ul class="footer-subsection-list no-bullets">
+                            <li>321 Yes Street <br>New York</li>
+                            <li>+42 90987621</li>
+                            <li>mail@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="footer-subsection">
+                        <h2 class="footer-subsection-title">Socials</h2>
+                        <div class="footer-sm-icons-section">
+                            <a href="#top" class="footer-sm-icon"><i class="fab fa-facebook"></i></a>
+                            <a href="#top" class="footer-sm-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#top" class="footer-sm-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#top" class="footer-sm-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-credits">
+                    <p> &copy; 2021 JV Racoma. All Right Reserved</p>
+                </div>
+            </div>      
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
